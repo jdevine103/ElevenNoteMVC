@@ -33,6 +33,7 @@ namespace ElevenNote.Data
         }
 
         public DbSet<Note> Notes { get; set; }
+        public DbSet<Category> Categorys { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder
