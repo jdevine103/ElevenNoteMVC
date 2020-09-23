@@ -23,6 +23,9 @@ namespace ElevenNote.WebMVC.Controllers
         //GET
         public ActionResult Create()
         {
+            var service = CreateCategoryService();
+            var categories = new SelectList(service.GetCategories(), "Id", "Name");
+            ViewBag.Categories = categories;
             return View();
         }
         //POST : Note
@@ -112,6 +115,12 @@ namespace ElevenNote.WebMVC.Controllers
         {
             var userId = Guid.Parse(User.Identity.GetUserId());
             var service = new NoteService(userId);
+            return service;
+        }        
+        private CategoryService CreateCategoryService()
+        {
+            var userId = Guid.Parse(User.Identity.GetUserId());
+            var service = new CategoryService(userId);
             return service;
         }
     }

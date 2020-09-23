@@ -32,7 +32,7 @@ namespace ElevenNote.Services
             }
         }
 
-        public IEnumerable<Category> GetCategorys()
+        public IEnumerable<Category> GetCategories()
         {
             using (var ctx = new ApplicationDbContext())
             {

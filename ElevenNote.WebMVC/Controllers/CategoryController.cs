@@ -16,7 +16,7 @@ namespace ElevenNote.WebMVC.Controllers
         public ActionResult Index()
         {
             var service = CreateCategoryService();
-            var model = service.GetCategorys();
+            var model = service.GetCategories();
 
             return View(model);
         }
