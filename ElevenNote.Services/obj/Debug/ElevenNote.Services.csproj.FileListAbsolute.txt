@@ -14,3 +14,9 @@ C:\Users\user\Desktop\RedBadge\ElevenNote\ElevenNote.Services\bin\Debug\EntityFr
 C:\Users\user\Desktop\RedBadge\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\user\Desktop\RedBadge\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\user\Desktop\RedBadge\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.csproj.CopyComplete
+C:\Users\user\Desktop\RedBadge\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Data.dll
+C:\Users\user\Desktop\RedBadge\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Models.dll
+C:\Users\user\Desktop\RedBadge\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Data.pdb
+C:\Users\user\Desktop\RedBadge\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Data.dll.config
+C:\Users\user\Desktop\RedBadge\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Models.pdb
+C:\Users\user\Desktop\RedBadge\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Models.dll.config
