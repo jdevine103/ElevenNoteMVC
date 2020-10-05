@@ -25,7 +25,7 @@ namespace ElevenNote.WebMVC.Controllers
         {
             var service = CreateCategoryService();
             var categories = new SelectList(service.GetCategories(), "Id", "Name");
-            ViewBag.Categories = categories;
+            ViewBag.CategoryId = categories;
             return View();
         }
         //POST : Note
